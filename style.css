@@ -1,0 +1,90 @@
+:root {
+    --color-navbar: #375A7F;
+    --color-background-black: #222222;
+    --color-timeleft-green: #00BC8C;
+    --color-box-instruction: #F39C12;
+    --color-border-input: #E74C3C;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--color-background-black);
+    color: #fff;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav {
+    background-color: var(--color-navbar);
+    padding: 10px 0;
+}
+
+.header-title{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.center-text {
+    text-align: center;
+}
+
+
+.container {
+    width: fit-content;
+    height: fit-content;
+}
+
+#sec{
+    color: var(--color-timeleft-green);
+    font-size: 1.2em;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.center-element {
+   margin: 0 auto;
+}
+
+.input {
+    border: 1px solid var(--color-border-input);
+    padding: 15px 30px;
+    color: #333;
+    display: block;
+}
+
+#correct {
+    font-size: 1.4em;
+    text-transform: capitalize;
+}
+
+.group {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-instructins {
+    background-color: var(--color-box-instruction);
+    padding: 10px;
+    width: 50%;
+}
+
+level {
+    font-size: 1.3em;
+}
+
+select {
+    padding: 2px 5px;
+    font-size: 1.1em;
+}
